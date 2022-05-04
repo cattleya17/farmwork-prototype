@@ -1,3 +1,8 @@
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
 .header-logo{
   width: 24px;
 }
@@ -31,6 +36,19 @@
   object-fit: cover;
 }
 
+
+.job-detail-farm-gallery {
+  overflow-x: scroll;
+}
+
+.job-detail-farm-img {
+  width: 22%;
+}
+
+.job-detail-desc-wr {
+  font-size: 14px;
+}
+
 @media (max-width: 768px) {
   .job-item-title {
     font-size: 14px;
@@ -38,5 +56,8 @@
   .job-item-desc,
   .job-item-sub {
     font-size: 12px;
+  }
+  .job-detail-farm-img {
+    width: 30%;
   }
 }
