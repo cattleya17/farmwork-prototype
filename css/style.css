@@ -1,0 +1,42 @@
+.header-logo{
+  width: 24px;
+}
+
+.header-logo-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: slategray;
+}
+
+.lang-img-wr {
+  height: 32px;
+  width: 32px;
+}
+
+.nav-flex {
+  gap: 1rem;
+}
+
+.search-job-input {
+  max-width: 700px;
+  width: 100%;
+}
+
+.job-search-filter-icon {
+  font-size: 32px !important;
+}
+
+.job-item-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .job-item-title {
+    font-size: 14px;
+  }
+  .job-item-desc,
+  .job-item-sub {
+    font-size: 12px;
+  }
+}

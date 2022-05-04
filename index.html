@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    
+    <title>FarmWork Prototype</title>
+  </head>
+
+  <body class="bg-light">
+
+    <nav class="navbar navbar-expand navbar-light bg-white shadow-sm px-lg-4">
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="https://global-uploads.webflow.com/5e157547d6f791d34ea4e2bf/6087f2b060c7a92408bac811_logo.svg" alt="" class="header-logo d-inline-block align-text-top">
+          <span class="header-logo-title">Farms Work</span>
+        </a>
+
+        <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto align-items-center nav-flex w-lg-50">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="lang-img-wr d-inline-block me-1">
+                  <img src="https://cdn-icons-png.flaticon.com/512/330/330459.png" alt="" class="lang-flag-img img-fluid">
+                </div>                
+                (US) English
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="lang-img-wr d-inline-block me-1">
+                      <img src="https://cdn-icons-png.flaticon.com/512/330/330591.png" alt="" class="lang-flag-img img-fluid">
+                    </div>                
+                    한국어
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="lang-img-wr d-inline-block me-1">
+                      <img src="https://cdn-icons-png.flaticon.com/512/330/330651.png" alt="" class="lang-flag-img img-fluid">
+                    </div>                
+                    中文(简体)
+                  </a>
+                </li>
+                
+              </ul>
+            </li>
+
+            <li class="nav-item d-none d-md-block ms-auto">
+              <a class="nav-link text-dark fw-bold" href="employer-login.html">Employers</a>
+            </li>
+
+            <li class="nav-item d-none d-md-block">
+              <a href="employer-login.html">
+                <button type="button" class="btn btn-outline-dark">Log In</button>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+    </nav>
+
+    <div class="main-content m-2 m-lg-4">
+
+      <div class="search-wr p-lg-3">
+        <h1 class="search-text text-center mb-4 d-none d-lg-block">Lorem ipsum dolor sit amet consectetur elit. Totam, adipisci.</h1>
+        <form class="d-flex search-job-input m-auto">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+
+      <div class="job-results-wr p-lg-4 p-2 my-2 bg-white shadow-sm">
+
+        <div class="job-search-filter-wr d-flex gap-3">
+
+          <span class="material-icons-outlined text-secondary job-search-filter-icon">
+            filter_alt
+          </span>
+  
+          <div class="btn-group">
+            <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              지역별
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">button 1 l1</a></li>
+              <li><a class="dropdown-item" href="#">button 1 l2</a></li>
+              <li><a class="dropdown-item" href="#">button 1 l3</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group">
+            <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              급여로
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">button 2 l1</a></li>
+              <li><a class="dropdown-item" href="#">button 2 l2</a></li>
+              <li><a class="dropdown-item" href="#">button 2 l3</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group">
+            <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" >
+              직업으로
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">button 3 l1</a></li>
+              <li><a class="dropdown-item" href="#">button 3 l2</a></li>
+              <li><a class="dropdown-item" href="#">button 3 l3</a></li>
+            </ul>
+          </div>
+    
+        </div>
+    
+        <div class="job-list-wr my-4">
+          
+
+          <div class="card mb-3 job-item-card">
+            <div class="row g-0">
+              <div class="col-md-2 col-4">
+                <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d" class="img-fluid rounded-start job-item-img" alt="...">
+              </div>
+              <div class="col-md-10 col-8">
+                <div class="card-body">
+                  <h5 class="card-title job-item-title mb-0">Farm Job Title</h5>
+                  <div class="job-item-sub mb-1 d-flex align-items-center">
+                    <small class="text-muted">
+                      $100
+                    </small>
+                  </div>
+                  <p class="card-text job-item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores sint dolores repudiandae quos voluptates odio beatae magnam sunt nihil quae!</p>
+                  <p class="card-text job-item-sub d-flex align-items-center gap-1">
+                    <small class="text-muted">2 weeks ago</small>
+                    <span class="material-icons text-muted fs-6">
+                      place
+                    </span>
+                    <small class="text-muted">
+                      Busan
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DUMMY DATA  -->
+
+          <div class="card mb-3 job-item-card">
+            <div class="row g-0">
+              <div class="col-md-2 col-4">
+                <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d" class="img-fluid rounded-start job-item-img" alt="...">
+              </div>
+              <div class="col-md-10 col-8">
+                <div class="card-body">
+                  <h5 class="card-title job-item-title mb-0">Farm Job Title</h5>
+                  <div class="job-item-sub mb-1 d-flex align-items-center">
+                    <small class="text-muted">
+                      $100
+                    </small>
+                  </div>
+                  <p class="card-text job-item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores sint dolores repudiandae quos voluptates odio beatae magnam sunt nihil quae!</p>
+                  <p class="card-text job-item-sub d-flex align-items-center gap-1">
+                    <small class="text-muted">2 weeks ago</small>
+                    <span class="material-icons text-muted fs-6">
+                      place
+                    </span>
+                    <small class="text-muted">
+                      Busan
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3 job-item-card">
+            <div class="row g-0">
+              <div class="col-md-2 col-4">
+                <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d" class="img-fluid rounded-start job-item-img" alt="...">
+              </div>
+              <div class="col-md-10 col-8">
+                <div class="card-body">
+                  <h5 class="card-title job-item-title mb-0">Farm Job Title</h5>
+                  <div class="job-item-sub mb-1 d-flex align-items-center">
+                    <small class="text-muted">
+                      $100
+                    </small>
+                  </div>
+                  <p class="card-text job-item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores sint dolores repudiandae quos voluptates odio beatae magnam sunt nihil quae!</p>
+                  <p class="card-text job-item-sub d-flex align-items-center gap-1">
+                    <small class="text-muted">2 weeks ago</small>
+                    <span class="material-icons text-muted fs-6">
+                      place
+                    </span>
+                    <small class="text-muted">
+                      Busan
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3 job-item-card">
+            <div class="row g-0">
+              <div class="col-md-2 col-4">
+                <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d" class="img-fluid rounded-start job-item-img" alt="...">
+              </div>
+              <div class="col-md-10 col-8">
+                <div class="card-body">
+                  <h5 class="card-title job-item-title mb-0">Farm Job Title</h5>
+                  <div class="job-item-sub mb-1 d-flex align-items-center">
+                    <small class="text-muted">
+                      $100
+                    </small>
+                  </div>
+                  <p class="card-text job-item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores sint dolores repudiandae quos voluptates odio beatae magnam sunt nihil quae!</p>
+                  <p class="card-text job-item-sub d-flex align-items-center gap-1">
+                    <small class="text-muted">2 weeks ago</small>
+                    <span class="material-icons text-muted fs-6">
+                      place
+                    </span>
+                    <small class="text-muted">
+                      Busan
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3 job-item-card">
+            <div class="row g-0">
+              <div class="col-md-2 col-4">
+                <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d" class="img-fluid rounded-start job-item-img" alt="...">
+              </div>
+              <div class="col-md-10 col-8">
+                <div class="card-body">
+                  <h5 class="card-title job-item-title mb-0">Farm Job Title</h5>
+                  <div class="job-item-sub mb-1 d-flex align-items-center">
+                    <small class="text-muted">
+                      $100
+                    </small>
+                  </div>
+                  <p class="card-text job-item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores sint dolores repudiandae quos voluptates odio beatae magnam sunt nihil quae!</p>
+                  <p class="card-text job-item-sub d-flex align-items-center gap-1">
+                    <small class="text-muted">2 weeks ago</small>
+                    <span class="material-icons text-muted fs-6">
+                      place
+                    </span>
+                    <small class="text-muted">
+                      Busan
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3 job-item-card">
+            <div class="row g-0">
+              <div class="col-md-2 col-4">
+                <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d" class="img-fluid rounded-start job-item-img" alt="...">
+              </div>
+              <div class="col-md-10 col-8">
+                <div class="card-body">
+                  <h5 class="card-title job-item-title mb-0">Farm Job Title</h5>
+                  <div class="job-item-sub mb-1 d-flex align-items-center">
+                    <small class="text-muted">
+                      $100
+                    </small>
+                  </div>
+                  <p class="card-text job-item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores sint dolores repudiandae quos voluptates odio beatae magnam sunt nihil quae!</p>
+                  <p class="card-text job-item-sub d-flex align-items-center gap-1">
+                    <small class="text-muted">2 weeks ago</small>
+                    <span class="material-icons text-muted fs-6">
+                      place
+                    </span>
+                    <small class="text-muted">
+                      Busan
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3 job-item-card">
+            <div class="row g-0">
+              <div class="col-md-2 col-4">
+                <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d" class="img-fluid rounded-start job-item-img" alt="...">
+              </div>
+              <div class="col-md-10 col-8">
+                <div class="card-body">
+                  <h5 class="card-title job-item-title mb-0">Farm Job Title</h5>
+                  <div class="job-item-sub mb-1 d-flex align-items-center">
+                    <small class="text-muted">
+                      $100
+                    </small>
+                  </div>
+                  <p class="card-text job-item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores sint dolores repudiandae quos voluptates odio beatae magnam sunt nihil quae!</p>
+                  <p class="card-text job-item-sub d-flex align-items-center gap-1">
+                    <small class="text-muted">2 weeks ago</small>
+                    <span class="material-icons text-muted fs-6">
+                      place
+                    </span>
+                    <small class="text-muted">
+                      Busan
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3 job-item-card">
+            <div class="row g-0">
+              <div class="col-md-2 col-4">
+                <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d" class="img-fluid rounded-start job-item-img" alt="...">
+              </div>
+              <div class="col-md-10 col-8">
+                <div class="card-body">
+                  <h5 class="card-title job-item-title mb-0">Farm Job Title</h5>
+                  <div class="job-item-sub mb-1 d-flex align-items-center">
+                    <small class="text-muted">
+                      $100
+                    </small>
+                  </div>
+                  <p class="card-text job-item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores sint dolores repudiandae quos voluptates odio beatae magnam sunt nihil quae!</p>
+                  <p class="card-text job-item-sub d-flex align-items-center gap-1">
+                    <small class="text-muted">2 weeks ago</small>
+                    <span class="material-icons text-muted fs-6">
+                      place
+                    </span>
+                    <small class="text-muted">
+                      Busan
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- END OF DUMMY DATA -->
+
+        </div>
+  
+
+      </div>
+  
+      
+
+
+
+    </div>
+
+    
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>    
+  </body>
+  
+</html>
