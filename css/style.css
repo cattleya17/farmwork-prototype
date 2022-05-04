@@ -32,8 +32,8 @@ a {
 }
 
 .job-item-img {
-  max-height: 175px;
   height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
