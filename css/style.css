@@ -13,6 +13,12 @@ a {
   color: slategray;
 }
 
+.lang-dropdown-menu {
+  min-width: 120px;
+  right: 0;
+  left: unset !important;
+}
+
 .lang-img-link {
   font-size: 12px;
 }
@@ -24,6 +30,11 @@ a {
 
 .nav-flex {
   gap: 1rem;
+}
+
+.index-search-btn {
+  flex: 1 0 auto;
+  min-width: 100px;
 }
 
 .search-job-input {
