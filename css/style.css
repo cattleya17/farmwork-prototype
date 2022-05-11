@@ -59,6 +59,7 @@ a {
 
 .job-detail-farm-img {
   width: 22%;
+  height: 100%;
 }
 
 .job-detail-desc-wr {
@@ -76,6 +77,8 @@ a {
   }
   .job-detail-farm-img {
     width: 45%;
+    height: 150px;
+    object-fit: cover;
   }
 
   .text-truncate-sm-2 {
@@ -92,6 +95,10 @@ a {
 @supports (-webkit-touch-callout: none) and (not (translate: none)) {
   .job-search-filter-wr > * {
     margin-right: 1rem;
+  }
+
+  .job-detail-farm-img {
+    margin-right: 0.5rem;
   }
 }
 
