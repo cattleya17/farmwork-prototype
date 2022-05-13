@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    
+    <title>FarmWork Prototype</title>
+  </head>
+
+  <body class="bg-light">
+
+    <nav class="navbar navbar-expand navbar-light bg-white shadow-sm px-lg-4">
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="https://global-uploads.webflow.com/5e157547d6f791d34ea4e2bf/6087f2b060c7a92408bac811_logo.svg" alt="" class="header-logo d-inline-block align-text-top">
+          <span class="header-logo-title">Farms Work</span>
+        </a>
+
+        <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto align-items-center nav-flex w-lg-50">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle lang-img-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="lang-img-wr d-inline-block me-1">
+                  <img src="https://cdn-icons-png.flaticon.com/512/330/330557.png" alt="" class="lang-flag-img img-fluid">
+                </div>                
+                Español                
+              </a>
+              <ul class="dropdown-menu lang-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item lang-img-link" href="job-detail-korean.html">
+                    <div class="lang-img-wr d-inline-block me-1">
+                      <img src="https://cdn-icons-png.flaticon.com/512/330/330591.png" alt="" class="lang-flag-img img-fluid">
+                    </div>                
+                    한국어
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item lang-img-link" href="job-detail-chinese.html">
+                    <div class="lang-img-wr d-inline-block me-1">
+                      <img src="https://cdn-icons-png.flaticon.com/512/330/330651.png" alt="" class="lang-flag-img img-fluid">
+                    </div>                
+                    中文(简体)
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item lang-img-link" href="job-detail-filipino.html">
+                    <div class="lang-img-wr d-inline-block me-1">
+                      <img src="https://cdn-icons-png.flaticon.com/512/330/330493.png" alt="" class="lang-flag-img img-fluid">
+                    </div>                
+                    Filipino
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item lang-img-link" href="job-detail.html">
+                    <div class="lang-img-wr d-inline-block me-1">
+                      <img src="https://cdn-icons-png.flaticon.com/512/330/330459.png" alt="" class="lang-flag-img img-fluid">
+                    </div>                
+                    (US) English                    
+                  </a>
+                </li>
+                
+              </ul>
+            </li>
+
+            <li class="nav-item d-none d-md-block ms-auto">
+              <a class="nav-link text-dark fw-bold" href="employer-login.html">Employers</a>
+            </li>
+
+            <li class="nav-item d-none d-md-block">
+              <a href="employer-login.html">
+                <button type="button" class="btn btn-outline-dark">Log In</button>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+    </nav>
+
+    <div class="main-content m-2 m-lg-4">
+
+      <div class="card m-lg-4 p-lg-4 p-3">
+
+        <h2 class="mb-0">Título del Trabajo - Nombre de la Granja</h2>
+        <div class="job-detail-subtitle mb-lg-4 mb-3 d-flex align-items-center gap-2">
+          <span class="material-icons text-muted fs-6">
+            place
+          </span>
+          <small class="text-muted">
+            Busan
+          </small>
+
+          <small class="text-muted">$100
+
+          </small>
+        </div>
+
+        <div class="job-detail-farm-gallery d-flex flex-row gap-2 w-100 mb-lg-4 mb-3">
+          <img class="job-detail-farm-img img-fluid" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+          <img class="job-detail-farm-img img-fluid" src="https://images.unsplash.com/photo-1495539406979-bf61750d38ad" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+          <img class="job-detail-farm-img img-fluid" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+          <img class="job-detail-farm-img img-fluid" src="https://images.unsplash.com/photo-1495539406979-bf61750d38ad" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+          <img class="job-detail-farm-img img-fluid" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+          <img class="job-detail-farm-img img-fluid" src="https://images.unsplash.com/photo-1495539406979-bf61750d38ad" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+          <img class="job-detail-farm-img img-fluid" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+          <img class="job-detail-farm-img img-fluid" src="https://images.unsplash.com/photo-1495539406979-bf61750d38ad" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            
+              <div class="modal-body">
+                <img class="job-detail-farm-img-modal img-fluid" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef">
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            
+              <div class="modal-body">
+                <img class="job-detail-farm-img-modal img-fluid" src="https://images.unsplash.com/photo-1495539406979-bf61750d38ad">
+              </div>
+
+            </div>
+          </div>
+        </div>
+   
+        <div class="job-detail-desc-wr">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusantium praesentium nam molestias facere, maiores cum quae ipsum error consequatur.
+          </p>
+  
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est illo exercitationem aperiam eveniet, iusto architecto, voluptas hic vitae corrupti, ex consectetur? Quisquam sit iure illum accusantium voluptates modi autem assumenda.
+          </p>
+          
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ea enim aut quod! Voluptas ipsum, perspiciatis delectus cum voluptates minima.
+          </p>
+
+          <ul class="job-detail-desc-ul">
+            <li>Tamaño de la finca: 10 hectáreas</li>
+            <li>Alojamiento: dormitorio para 6 personas por habitación</li>
+            <li>Salario: contrato de $300</li>
+            <li>Horario de trabajo: 8 horas/día</li>
+            <li>Días Laborables: Lunes-Sábado</li>
+            <li>Vacaciones: 1 semana</li>
+            <li>Extranjeros trabajando en la finca: </li>
+            <li>Contacto: farmemail@example.com</li>
+          </ul>
+
+
+        </div>
+        
+      
+      </div>
+
+    </div>
+
+    
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>    
+  </body>
+  
+</html>

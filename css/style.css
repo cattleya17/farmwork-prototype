@@ -77,7 +77,7 @@ a {
   }
   .job-detail-farm-img {
     width: 45%;
-    height: 150px;
+    height: 120px;
     object-fit: cover;
   }
 
@@ -99,6 +99,14 @@ a {
 
   .job-detail-farm-img {
     margin-right: 0.5rem;
+  }
+
+  .job-detail-subtitle > * {
+    margin-right: 0.5rem;
+  }
+
+  .job-item-sub > * {
+    margin-right: 0.25rem;
   }
 }
 
