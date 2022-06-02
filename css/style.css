@@ -46,6 +46,11 @@ a {
   font-size: 32px !important;
 }
 
+.job-item-card {
+  max-height: 130px;
+  overflow: hidden;
+}
+
 .job-item-img {
   height: 100%;
   width: 100%;
