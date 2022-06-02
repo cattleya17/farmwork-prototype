@@ -17,20 +17,6 @@
 
   <body class="bg-light">
 
-    <script>
-      let farmData;
-      const datasrc = "farmswork-data.json";
-      
-      fetch(datasrc)
-      .then(results => results.json())
-      .then(data => {
-        for (let x of data){
-          console.log(x);
-        }
-      });
-      
-    </script>
-
     <nav class="navbar navbar-expand navbar-light bg-white shadow-sm px-lg-4">
 
       <div class="container-fluid">
@@ -106,29 +92,24 @@
 
       <div class="card m-lg-4 p-lg-4 p-3">
 
-        <h2 class="mb-0">Job Title - Farm Name</h2>
+        <h2 class="mb-0 text-capitalize">General staff for pig farm - Yul-Lee Farm</h2>
         <div class="job-detail-subtitle mb-lg-4 mb-3 d-flex align-items-center gap-2">
           <span class="material-icons text-muted fs-6">
             place
           </span>
           <small class="text-muted">
-            Busan
+            Chungcheongnam-do
           </small>
 
-          <small class="text-muted">$100
-
+          <small class="text-muted">
+            <!-- $100 -->
           </small>
         </div>
 
         <div class="job-detail-farm-gallery d-flex flex-row gap-2 w-100 mb-lg-4 mb-3">
-          <img class="job-detail-farm-img img-fluid" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-          <img class="job-detail-farm-img img-fluid" src="https://images.unsplash.com/photo-1495539406979-bf61750d38ad" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-          <img class="job-detail-farm-img img-fluid" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-          <img class="job-detail-farm-img img-fluid" src="https://images.unsplash.com/photo-1495539406979-bf61750d38ad" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-          <img class="job-detail-farm-img img-fluid" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-          <img class="job-detail-farm-img img-fluid" src="https://images.unsplash.com/photo-1495539406979-bf61750d38ad" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-          <img class="job-detail-farm-img img-fluid" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-          <img class="job-detail-farm-img img-fluid" src="https://images.unsplash.com/photo-1495539406979-bf61750d38ad" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+          <img class="job-detail-farm-img img-fluid" src="https://storage.googleapis.com/catt-dev-storage/farmswork/yul-lee-1.png" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+          <img class="job-detail-farm-img img-fluid" src="https://storage.googleapis.com/catt-dev-storage/farmswork/yul-lee-2.png" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+        
         </div>
 
         <!-- Modal -->
@@ -137,7 +118,7 @@
             <div class="modal-content">
             
               <div class="modal-body">
-                <img class="job-detail-farm-img-modal img-fluid" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef">
+                <img class="job-detail-farm-img-modal img-fluid" src="https://storage.googleapis.com/catt-dev-storage/farmswork/yul-lee-1.png">
               </div>
 
             </div>
@@ -149,35 +130,37 @@
             <div class="modal-content">
             
               <div class="modal-body">
-                <img class="job-detail-farm-img-modal img-fluid" src="https://images.unsplash.com/photo-1495539406979-bf61750d38ad">
+                <img class="job-detail-farm-img-modal img-fluid" src="https://storage.googleapis.com/catt-dev-storage/farmswork/yul-lee-2.png">
               </div>
 
             </div>
           </div>
         </div>
+
+        
    
         <div class="job-detail-desc-wr">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusantium praesentium nam molestias facere, maiores cum quae ipsum error consequatur.
+            Job description goes here in paragraph form. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur repudiandae dicta cupiditate beatae reprehenderit perferendis perspiciatis cumque quasi, voluptatum repellat neque mollitia vel recusandae nulla inventore facere id voluptatem iste?
           </p>
   
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est illo exercitationem aperiam eveniet, iusto architecto, voluptas hic vitae corrupti, ex consectetur? Quisquam sit iure illum accusantium voluptates modi autem assumenda.
-          </p>
           
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ea enim aut quod! Voluptas ipsum, perspiciatis delectus cum voluptates minima.
-          </p>
 
           <ul class="job-detail-desc-ul">
-            <li>Size of the Farm: 10 hectares</li>
-            <li>Housing: 6 person per room dormitory</li>
-            <li>Salary: $300 contract</li>
-            <li>Working Hours: 8hrs/day</li>
-            <li>Working Days: Monday-Saturday</li>
-            <li>Vacation: 1week</li>
+            <li>Size of the Farm: 1,300 Pigs for raise and sell</li>
+            <li>Housing: Housing offered, located within the farm</li>
+            <li>Salary: TBD</li>
+            <li>Working Hours: 07:30-18:00
+              <br> Varies depends on the season
+              (Generally have more breaktime compare to sow farm)</li>
+            <li>Working Days: </li>
+            <li>Vacation: 4 times a month</li>
+            <li>Welfare: Breakfast, Lunch, and holiday bonus</li>
             <li>Foreigners Working on the Farm: </li>
             <li>Contact: farmemail@example.com</li>
+            <li>Address: 37-28, Jangmaru-ro 598beon-gil, 
+              <br> Gwangseok-myeon, Nonsan-si, 
+              <br> Chungcheongnam-do, Republic of Korea</li>
           </ul>
 
 
